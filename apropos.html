@@ -3,44 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Site IRLA</title>
 </head>
 <body>
-                <header class="entete">
-        <img src="logo-irla.jpg" alt="logo" width="100">
-        <nav class="bar">
-            <ul class="menu">
-               <li> <a href="#">Accueil</a> </li>
-                <li><a href="#">Actualités</a></li>
-                <li><a href="#">Production</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Contact</a></li>
+    <header>
+        <img src="images/logo-irla.jpg" alt="logo" width="100">
+        <nav>
+            <ul>
+               <li> <a href="index.html"  class="nav">Accueil</a> </li>
+                <li><a href="actualite.html"  class="nav">Actualités</a></li>
+                <li><a href="production.html"  class="nav">Production</a></li>
+                <li><a href="service.html"  class="nav">Services</a></li>
+                <li><a href="apropos.html"  class="nav">A propos</a></li>
+                <li><a href="contact.html"  class="nav">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <footer class="respo">
-            <img src="Nimba-Logo.webp" alt="nimba" class="logoo">
-             <div class="contacte">
+     <section class="banni">
+  <h2 class="titre-section">À PROPOS DE NOUS</h2>
+  </section>
+  <section class="projet">
+    <section class="apropos">
+  <div class="apropos-content">
+    <section id="mission" class="apropos-block">
+      <h3>Notre Mission</h3>
+      <p>
+        Notre mission est de promouvoir la recherche, la diffusion des savoirs et le développement des compétences dans divers domaines scientifiques, éducatifs et culturels.
+      </p>
+    </section>
+
+    <section id="historique" class="apropos-block">
+      <h3>Historique</h3>
+      <p>
+        Fondé dans un esprit d'innovation et de service, notre institut est né de la volonté d'accompagner la transformation intellectuelle et technique de notre pays.
+      </p>
+    </section>
+
+    <section id="objectifs" class="apropos-block">
+      <h3>Nos Objectifs</h3>
+      <p>
+        Renforcer les capacités humaines, encourager la recherche appliquée et faciliter l'accès à la connaissance à travers des programmes structurés et inclusifs.
+      </p>
+    </section>
+  </div>
+</section>
+<section class="projets">
+  <h2 class="titre-section">PROJETS ET PERSPECTIVES</h2>
+
+  <div class="projet-bloc">
+    <h3>Projets en cours</h3>
+    <p>
+      Nous travaillons actuellement sur plusieurs initiatives dont la création d’une plateforme numérique d’apprentissage, la digitalisation des archives scientifiques et la mise en place de programmes de formation pour les jeunes chercheurs.
+      La politique linguistique est connue comme étant toute décision d’un Etat permettant de réguler l’usage d’une ou plusieurs langues parlées sur le territoire relevant de sa souveraineté.
+      En effet, plusieurs initiatives ont été entreprises pendant la première République visant à promouvoir et à valoriser les langues guinéennes (1966 à 1984).
+    </p>
+  </div>
+
+  <div class="projet-bloc">
+    <h3>Projets à venir</h3>
+    <p>
+      Nous prévoyons de développer un laboratoire de traduction professionnelle, lancer un centre d’incubation pour projets innovants, et renforcer les partenariats internationaux pour des échanges académiques et techniques.
+      La Guinée est, selon les experts, un « damier linguistique ». Il y a donc un dynamisme linguistique qui mérite d’être investigué en vue d’établir une cartographie exhaustive des langues et des lieux où elles sont parlées. L’IRLA vise, par ce projet, à procéder à un recensement précis des langues et de leurs locuteurs. Il favorisera une meilleure connaissance du patrimoine linguistique de la Guinée
+    </p>
+  </div>
+
+  <div class="projet-bloc">
+    <h3>Nos perspectives</h3>
+    <p>
+      À moyen et long terme, notre ambition est de devenir un pôle régional d’excellence dans les domaines de la recherche, de la formation continue et de la production de ressources pédagogiques adaptées aux réalités africaines.
+      La transmission des valeurs traditionnelles africaines aux générations montantes se faisait au clair delune, sous les arbres à palabres, par les sages après avoir passé une longue journée de travail à traversdes contes, légendes, proverbes et devinettes. Par ce biais, on organisait un moment ludique et pédagogique où, à travers le jeu et l’émerveillement, des savoirs étaient dispensés.
+    </p>
+  </div>
+</section>
+<section class="irla-chiffres">
+  <h2 class="titre-section">IRLA EN CHIFFRES</h2>
+
+  <div class="chiffres-container">
+    <div class="chiffre">
+      <span class="valeur">+9</span>
+      <p>Services</p>
+    </div>
+    <div class="chiffre">
+      <span class="valeur">+40</span>
+      <p>Personnels</p>
+    </div>
+    <div class="chiffre">
+      <span class="valeur">+175</span>
+      <p>Activités</p>
+    </div>
+    <div class="chiffre">
+      <span class="valeur">+507</span>
+      <p>Projet & Perspectives</p>
+    </div>
+  </div>
+</section>
+<section class="section-directeur">
+  <h2 class="titre-section">NOS ADMINISTRATEURS</h2>
+
+  <div class="directeur-container">
+    <!-- Colonne gauche : Image + nom + scanner -->
+    <div class="directeur-gauche">
+      <img src="images/PHOTO-DG.jpg" alt="Photo du Directeur" class="photo-directeur" />
+      <h3 class="nom-directeur">Dr. Mohamed Bintou Keïta</h3>
+      <h3 class="nom-directeur">Directeur Général De L'IRLA</h3>
+      <h3 class="scan">Scannez le code QR</h3>
+
+      <img src="images/Code QR.jpg" alt="QR code ou signature" class="scanner-directeur" />
+    </div>
+
+    <!-- Colonne droite : Message du directeur -->
+    <div class="directeur-droite">
+      <p>
+        <strong><h2>Chers internautes,</h2></strong><br><br>
+
+        Je suis heureux de vous souhaiter la bienvenue sur notre site au nom de l’ensemble du personnel de l’IRLA. Notre institut est chargé de la mise en œuvre de la politique du gouvernement guinéen en matière de promotion des langues nationales en vue d’en faire des moyens de communication et d’enseignement.
+
+        En visitant notre site, vous trouverez la richesse de notre patrimoine culturel véhiculée dans nos langues. Société d’oralité, la Guinée regorge de contes, légendes, proverbes, devinettes et maximes qui portent des enseignements philosophiques et éthiques indispensables à la constitution harmonieuse de notre personnalité.
+
+        Mes équipes et moi sommes convaincus que nos langues nationales sont des outils efficaces de trans- mission des savoirs et connaissances pour un développement durable et bénéfique pour les populations.
+
+         En vous disant merci, nous vous souhaitons une excellente navigation sur notre site.
+
+        Nos Actualités
+        C’est avec un immense honneur que je vous souhaite la bienvenue sur notre plateforme.
+        À travers nos projets et initiatives, nous œuvrons pour la promotion de la recherche appliquée, 
+        de la traduction scientifique et du transfert des savoirs. Notre équipe engagée travaille au quotidien 
+        pour créer un impact durable dans la société guinéenne et au-delà.
+        <br /><br />
+        Je vous invite à parcourir nos rubriques pour découvrir nos actions, nos perspectives et nos engagements.
+        Merci de votre intérêt et de votre confiance.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="administrateurs">
+  <h2 class="titre-section">EQUIPE</h2>
+
+  <div class="admin-grid">
+    <div class="admin-card">
+      <img src="images/PHOTO-D.jpg" alt="Admin 1" class="admin-photo" />
+      <h3 class="admin-nom">Dr. Mohamed Bintou Keïta</h3>
+      <p>Directeur Général</p>
+    </div>
+    <div class="admin-card">
+      <img src="images/DGA.jpg" alt="Admin 2" class="admin-photo" />
+      <h3 class="admin-nom">Dre. Saran Camara</h3>
+      <p>Directrice générale Adjointe</p>
+    </div>
+    <div class="admin-card">
+      <img src="images/photo1.jpeg" alt="Admin 3" class="admin-photo" />
+      <h3 class="admin-nom">Mr Abdourahmane Fofana</h3>
+      <p>Comptable</p>
+    </div>
+    <div class="admin-card">
+      <img src="images/SC.jpg" alt="Admin 4" class="admin-photo" />
+      <h3 class="admin-nom"> Mme Fatou Bah</h3>
+      <p>Secré"taire Des Affaires Financières</p>
+    </div>
+    <!-- Ajoute autant d’administrateurs que tu veux en copiant ce bloc -->
+  </div>
+</section>
+</section>
+    <footer class="resp">
+            <img src="images/Nimba-Logo.webp" alt="nimba" class="logo">
+             <div class="contact">
                 <p>Contact</p>
-                 <a href="#" class="link"><i class="fas fa-envelope"></i> info@irla.gov.gn</a>
-                 <div class="appel">
-                    <img src="whatsapp icône.png" alt="" class="tell">
-                    <a href="#">+ 224 628 62 78 78</a>
+                <div>
+                 <a href=" info@irla.gov.gn" class="lien"><i class="fas fa-envelope"></i> info@irla.gov.gn</a>
+                <a href="+224 628 62 78 78" class="lien"><i class="fab fa-whatsapp"></i>+224 628 62 78 78</a>
+                </div>
                  </div>
                   
              </div>
-             <div class="suiver">
+             <div class="follow">
               <p>Suivez-Nous</p>
-              <img src="facebook.png" alt="">
-              <img src="linked in.png" alt="">
-              <img src="youtube.png" alt="">
-              <img src="instagram.png" alt="">
+              <div>
+              <a href="facebook" class="link"><i  class="fab fa-facebook"></i></a>
+              <a href="linkedin" class="link"><i  class="fab fa-linkedin"></i></a>
+              <a href="instagram" class="link"><i  class="fab fa-instagram"></i></a>
+              <a href="youtube" class="link"><i  class="fab fa-youtube"></i></a>
+              </div>
              </div>
              <p style="color: white;" class="r">@2025Copyright|Rougui</p>
          </footer>
-
-
+         
 </body>
 </html>
